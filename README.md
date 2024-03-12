@@ -39,7 +39,7 @@ active-stats<br>
 ### Links
 
 - Solution URL: (https://github.com/ysmltr/3-column-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://3-column-preview-card-component-main-pink-ten.vercel.app)
 
 ## My process
 
