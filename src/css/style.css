@@ -44,7 +44,7 @@
 .text{
     padding: 18px;
     padding-right: 30px;
-    color: var(--very-light-gray);
+    color: var(--transparent-white);
     font-family: 'Lexend Deca', arial, sans-serif;
     font-size: var(--font-size);    
     line-height: 1.9;
@@ -52,7 +52,7 @@
 }
 
 .title{
-    color: white;
+    color: var(--very-light-gray);
     padding: 10px;
     font-family: 'Big Shoulders Display', arial, sans-serif;
 }
@@ -78,10 +78,10 @@ button{
     border-radius: 30px;
     font-size: var(--font-size);
     padding: var(--font-size);
-    margin-top: 55px;
+    margin-top: 35px;
     margin-bottom: 10px;
     width: 150px;
-    border: 0px solid transparent;
+    border: 0px solid var(--transparent-white);
     font-family: 'Lexend Deca', arial, sans-serif;;
     font-size: 15px;
 }
@@ -89,6 +89,17 @@ button{
 button:hover{
     background-color: transparent;
     border: 1px solid white;
-    cursor: pointer
+    cursor: pointer;
+    color: var(--transparent-white);
+    transition: translateY(0);
+    
 }
 
+
+@media screen and (max-width: 767px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }}
