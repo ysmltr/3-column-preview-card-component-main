@@ -77,11 +77,10 @@
 button{
     border-radius: 30px;
     font-size: var(--font-size);
-    padding: var(--font-size);
+    padding: 1rem;
     margin-top: 35px;
     margin-bottom: 10px;
     width: 150px;
-    cursor: pointer;
     border: 0px solid var(--transparent-white);
     font-family: 'Lexend Deca', arial, sans-serif;;
     font-size: 15px;
@@ -90,14 +89,10 @@ button{
 button:hover{
     background-color: transparent;
     border: 1px solid white;
-    cursor: pointer;
     color: var(--transparent-white);
-    transition: all 0.5s;
-
-   
+    pointer-events: none;
     
 }
-
 
 @media screen and (max-width: 767px) {
     .container {
