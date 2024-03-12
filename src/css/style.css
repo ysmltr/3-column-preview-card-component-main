@@ -18,3 +18,77 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+
+  body{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;  
+    background-color:var(--very-light-gray)
+  }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+
+  .card{
+    padding: 20px;
+    max-width:  255px; 
+}
+
+.text{
+    padding: 18px;
+    padding-right: 30px;
+    color: var(--very-light-gray);
+    font-family: 'Lexend Deca', arial, sans-serif;
+    font-size: var(--font-size);    
+    line-height: 1.9;
+    width: 250px;
+}
+
+.title{
+    color: white;
+    padding: 10px;
+    font-family: 'Big Shoulders Display', arial, sans-serif;
+}
+
+
+.card img{
+    padding: 15px;
+}
+
+#c-1{
+    background-color: var(--bright-orange);
+}
+
+#c-2{
+    background-color: var(--dark-cyan);
+}
+ 
+#c-3{
+    background-color: var(--very-dark-cyan);
+}
+
+button{
+    border-radius: 30px;
+    font-size: var(--font-size);
+    padding: var(--font-size);
+    margin-top: 55px;
+    margin-bottom: 10px;
+    width: 150px;
+    border: 0px solid transparent;
+    font-family: 'Lexend Deca', arial, sans-serif;;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer
+}
+
