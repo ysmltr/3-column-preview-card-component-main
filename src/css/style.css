@@ -81,6 +81,7 @@ button{
     margin-top: 35px;
     margin-bottom: 10px;
     width: 150px;
+    cursor: pointer;
     border: 0px solid var(--transparent-white);
     font-family: 'Lexend Deca', arial, sans-serif;;
     font-size: 15px;
@@ -91,7 +92,9 @@ button:hover{
     border: 1px solid white;
     cursor: pointer;
     color: var(--transparent-white);
-    transition: translateY(0);
+    transition: all 0.5s;
+
+   
     
 }
 
